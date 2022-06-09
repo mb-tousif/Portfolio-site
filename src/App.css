@@ -2,37 +2,41 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.SocialIcon i {
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 10px;
+  border-radius: 50%;
+  transition: 0.5s;
+  cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.github:hover {
+  color: #1b545abd;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.facebook:hover {
+  color: #1773ea;
 }
 
-.App-link {
-  color: #61dafb;
+.linkedin:hover {
+color: #0a66c2;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.twitter:hover{
+  color: #38a1f3;
+}
+
+.youtube:hover {
+  color: #e92525;
+}
+
+.pinterest:hover {
+  color: #c8232c;
+}
+
+.dribbble:hover {
+  color: #ee72a2;
 }
