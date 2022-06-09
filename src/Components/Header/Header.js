@@ -25,22 +25,25 @@ const Header = () => {
               tabIndex="0"
               className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-secondary rounded-box w-52"
             >
-            <li>
-              <Link to="/home">Home</Link>
-            </li>
-            <li>
-              <Link to="/projects">Projects</Link>
-            </li>
-            <li>
-              <Link to="/contact">Contact</Link>
-            </li>
+              <li>
+                <Link to="/home">Home</Link>
+              </li>
+              <li>
+                <Link to="/projects">Projects</Link>
+              </li>
+              <li>
+                <Link to="/about">About</Link>
+              </li>
+              <li>
+                <Link to="/blogs">Blogs</Link>
+              </li>
             </ul>
           </div>
           <div className="flex justify-items-start">
             <img
               className="mx-auto my-auto ml-6"
               src={myName}
-              width="220"
+              width="180"
               height="50"
               alt="Name"
             />
@@ -55,7 +58,10 @@ const Header = () => {
               <Link to="/projects">Projects</Link>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <Link to="/about">About</Link>
+            </li>
+            <li>
+              <Link to="/blogs">Blogs</Link>
             </li>
           </ul>
         </div>

@@ -11,10 +11,10 @@ const ContactForm = () => {
 
   return (
     <div className="md:flex">
-      <img src={feedback} class="max-w-xm mx-auto my-auto" alt="feedback"/>
-      <div class="card mt-4 mb-4 mx-auto my-auto max-w-xs bg-neutral text-primary shadow-xl">
+      <img src={feedback} className="max-w-xm mx-auto my-auto" alt="feedback"/>
+      <div className="card mt-4 mx-auto my-auto max-w-xs bg-neutral text-primary shadow-xl">
         <form onSubmit={handleSubmit} className="md:m-6 m-2">
-          <h2 class="md:text-2xl text-xl font-semiBold text-center text-primary m-3">
+          <h2 className="md:text-2xl text-xl font-semiBold text-center text-primary m-3">
             FEEDBACK
           </h2>
           <div className="mx-auto">
@@ -23,7 +23,7 @@ const ContactForm = () => {
               id="name"
               type="text"
               name="name"
-              class="input input-bordered input-accent w-full max-w-xs"
+              className="input input-bordered input-accent w-full max-w-xs"
             />
           </div>
           <div className="mx-auto">
@@ -32,7 +32,7 @@ const ContactForm = () => {
               id="email"
               type="email"
               name="email"
-              class="input input-bordered input-accent w-full max-w-xs"
+              className="input input-bordered input-accent w-full max-w-xs"
             />
           </div>
           <div className="mx-auto mt-2">
@@ -40,12 +40,12 @@ const ContactForm = () => {
               id="message"
               name="message"
               placeholder="Your feedback!"
-              class="textarea w-full max-w-xs textarea-success"
+              className="textarea w-full max-w-xs textarea-success"
             />
           </div>
           <button
             type="submit"
-            class="btn mt-2 btn-outline btn-primary md:btn-wide"
+            className="btn mt-2 btn-outline btn-primary md:btn-wide"
             disabled={state.submitting}
           >
             SEND
