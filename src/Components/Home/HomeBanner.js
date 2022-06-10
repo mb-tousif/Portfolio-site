@@ -1,7 +1,6 @@
 import React from "react";
 import TypeWriterEffect from "react-typewriter-effect";
 import Background from "../../Assets/FeatureImages/bg.png";
-import BGImg from "../../Assets/FeatureImages/bgd.png";
 import {
   FaGithub,
   FaFacebook,
@@ -13,10 +12,7 @@ import {
 const HomeBanner = () => {
   return (
     <div className="hero min-h-[80%] bg-base-200">
-      <div
-        className="hero-content grid grid-cols-1 md:grid-cols-2"
-        // style={{ backgroundImage: `url(${BGImg})`, backgroundSize: "cover" }}
-      >
+      <div className="hero-content grid grid-cols-1 md:grid-cols-2">
         <div>
           <h1 className="md:text-3xl text-xl font-bold">I AM 📜</h1>
           <h2 className="text-[#174b8a] md:text-3xl text-center text-xl mb-4 font-bold">
@@ -33,7 +29,6 @@ const HomeBanner = () => {
               multiTextLoop
             />
           </h2>
-
           <div className="SocialIcon flex mt-2 mb-4">
             <a
               href="https://github.com/mb-tousif"
