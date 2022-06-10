@@ -62,7 +62,7 @@ const skills = [
   },
 ];
     return (
-      <div className="p-2 w-full md:mt-8 mx-auto my-auto max-w-xs">
+      <div className="p-2 w-full md:mt-8 mx-auto my-auto max-w-xs text-center">
         <SkillBar skills={skills} />
       </div>
     );
