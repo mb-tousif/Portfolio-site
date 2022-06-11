@@ -23,7 +23,7 @@ const SelectedProject = ({ project }) => {
         <div className="card-actions justify-center mt-6">
           <a href={liveSite} rel="noReferrer" target="_blank"  className="btn btn-wide btn-primary">Live Site</a>
         </div>
-        <div className="card-actions justify-center mt-6">
+        <div className="card-actions justify-center mt-6 mb-2">
           <a href={clientCode} rel="noReferrer" target="_blank" className="btn btn-primary">Client Github</a>
           <a href={serverCode} rel="noReferrer" target="_blank" className="btn btn-primary">Client Github</a>
         </div>
