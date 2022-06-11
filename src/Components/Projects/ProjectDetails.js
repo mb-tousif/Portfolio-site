@@ -8,18 +8,20 @@ const ProjectDetails = () => {
     console.log(id);
     const [projectData, setProjectData] = useState([]);
     useEffect(() => {
-      fetch("fakedb.json")
+      fetch("/fakedb.json")
         .then((res) => res.json())
         .then((data) => setProjectData(data));
     }, [id]);
-    const projectDetail = projectData.filter((project) => project.id === id);
+    const projectDetail = projectData.filter(
+      (project) => parseInt(project.id) === parseInt(id)
+    );
     console.log(projectDetail);
     return (
-      <div>
-        {projectDetail.map((projectDetail) => (
+      <div className='bg-accent'>
+        {projectDetail.map((project) => (
           <SelectedProject
-            key={projectDetail.id}
-            projectDetail={projectDetail}
+            key={project.id}
+            project={project}
           />
         ))}
       </div>
