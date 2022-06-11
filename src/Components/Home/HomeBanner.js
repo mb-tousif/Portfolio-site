@@ -18,6 +18,7 @@ const HomeBanner = () => {
           <h2 className="text-[#174b8a] md:text-3xl text-center text-xl mb-4 font-bold">
             <TypeWriterEffect
               cursorColor="#3a2376"
+              startDelay= {800}
               multiText={[
                 "AZIZUL HAQUE TOUSIF",
                 "Web Designer",

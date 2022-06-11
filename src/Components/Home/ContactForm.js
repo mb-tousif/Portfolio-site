@@ -57,11 +57,9 @@ const ContactForm = () => {
             </div>
             <button
               type="submit"
-              className="btn mt-2 btn-outline btn-primary md:btn-wide"
+              className="btn mt-2 btn-outline btn-primary mx-auto my-auto btn-wide"
               disabled={state.submitting}
-            >
-              SEND
-              <MdOutgoingMail className="w-5 h-5 ml-2" />
+            > SEND <MdOutgoingMail className="w-5 h-5 ml-2" />
             </button>
           </form>
         </div>
