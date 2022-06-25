@@ -3,8 +3,7 @@ import React from 'react';
 
 const Blog = () => {
     return (
-      <div
-        className="bg-accent text-center"
+      <div className="bg-accent text-center"
         // style={{ backgroundImage: `url(${bgImage})`}}
       >
         <h1 className="text-5xl pt-8">Coming Soon!</h1>
